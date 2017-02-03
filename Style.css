@@ -213,15 +213,6 @@ li a:hover {
 	margin-bottom: 0%;
 }
 
-.Picture_4_PP {
-	position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 35px;
-    height: 0;
-    overflow: hidden;
-	margin-bottom: 0%;
-}
-
 .Picture_PPs{
 	position: absolute;
     top:0;
@@ -305,6 +296,8 @@ li a:hover {
 }
 /*end of contact page*/
 
+
+/*test for responsive navbar didnt work out leaving it here for future references*/
 /*
 body {margin: 0;}
 
