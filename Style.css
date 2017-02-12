@@ -178,7 +178,7 @@ a.back-to-top {
 	z-index: 999;
 	right: 20px;
 	bottom: 20px;
-	background: #27AE61 url("../Images/UP-arrow.png") no-repeat center 43%;
+	background: #27AE61 url("UP-arrow.png") no-repeat center 43%;
 	-webkit-border-radius: 30px;
 	-moz-border-radius: 30px;
 	border-radius: 30px;
@@ -196,7 +196,7 @@ a:hover.back-to-top {
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;  
-	background-image: url(../Images/pexels-photo-51415.jpeg);	
+	background-image: url(pexels-photo-51415.jpeg);	
 	background-size: 100%;
 	background-repeat: repeat-y;
 	background-attachment: fixed;
@@ -374,7 +374,7 @@ a:hover.back-to-top {
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;   
-	background-image: url(../Images/pexels-photo-51415.jpeg);
+	background-image: url(pexels-photo-51415.jpeg);
 	background-size: 100%;
 	background-repeat: repeat-y;
 	background-attachment: fixed;
@@ -392,7 +392,7 @@ a:hover.back-to-top {
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000; 
-	background-image: url(../Images/pexels-photo-51415.jpeg);
+	background-image: url(pexels-photo-51415.jpeg);
 	background-size: 100%;
 	background-repeat: repeat-y;
 	background-attachment: fixed;
@@ -421,7 +421,7 @@ a:hover.back-to-top {
 
 /*Contact Page*/
 .contacts {
-	background-image: url(../Images/pexels-photo-51415.jpeg);
+	background-image: url(pexels-photo-51415.jpeg);
 	background-size: 100%;
 	background-repeat: repeat-y;
 	background-attachment: local;
@@ -446,12 +446,3 @@ a:hover.back-to-top {
 	display: inline-block;
 }
 /*end of contact page*/
-
-/*
-body {margin: 0;}
-
-
-
-
-}
-*/
