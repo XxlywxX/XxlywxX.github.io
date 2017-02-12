@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<!--title is basically the name of the website in the tab-->
+	<!-- 
+         Portfolio Contact
+         Filename: Contact.html
+
+         Author:   Lee Yong Wei
+         Date:     20/11/2016
+      -->
+	<meta charset="utf-8">
+
+	<title>Contact|Lyw</title>
+	<link href="../CSS/Style.css" rel="stylesheet" type="text/css">
+	<link href="../Images/Icon.png" rel="icon">
+</head>
+
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<header>
+		<div class="Page_logo"><img alt="Contact_Logo" class="Logo" src="../Images/Contact_Logo_Final.png" width="500">
+		</div>
+
+
+		<nav id="nav_bar">
+			<ul class="topnav" id="myTopnav">
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+
+
+				<li>
+					<a href="Personal_Portfolio.html">Personal Portfolio</a>
+				</li>
+
+
+				<li>
+					<a href="Personal_Achievements.html">Personal Achievements</a>
+				</li>
+
+
+				<li>
+					<a class="active" href="Contact.html">Contact</a>
+				</li>
+
+
+				<li class="icon">
+					<a href="javascript:void(0);" onclick="MyFunction()" style="font-size:15px;">☰</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+
+	<div class="contacts">
+		<div class="Form">
+			<form action="mailto:leeyongweijp@gmail.com" enctype="text/plain" method="post">
+				<fieldset>
+					<legend>Contact Information</legend> First name: <input name="First name" type="text" value="First Name"><br>
+					Last name: <input name="Last name" type="text" value="Last Name"><br>
+					Email: <input name="Email:" type="email" value="address@example.com"><br>
+					Phone: <input name="Phone:" type="tel"><br>
+				</fieldset>
+
+
+				<fieldset>
+					<legend>Prefered contact method</legend> <input checked name="Prefered contact method" type="radio" value="Email"> Email <input name="Prefered contact method" type="radio" value="Phone"> Phone <input name="Prefered contact method" type="radio" value="RNG"> RNG
+				</fieldset>
+
+
+				<fieldset>
+					<legend>Comments</legend><br>
+
+					<textarea cols="30" name="Your Questions Here!" rows="6"></textarea>
+				</fieldset>
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+
+
+		<div class="logo">
+			<a href="mailto:leeyongweijp@gmail.com"><img alt="G-Mail" height="68px" src="../Images/GMAIL_LOGO.png"></a>
+		</div>
+
+
+		<div class="logo">
+			<a href="https://www.facebook.com/lee.weithewannabekiller" target="_blank"><img alt="Facebook" height="68px" src="../Images/FB-f-Logo__blue_72.png"></a>
+		</div>
+
+
+		<div class="logo">
+			<a href="http://steamcommunity.com/profiles/76561198124309607/" target="_blank"><img alt="Steam" height="68px" src="../Images/steam-64.png"></a>
+		</div>
+	</div>
+
+
+	<footer>
+		<div class="copyright">
+			<p>© Copyright Lee Yong Wei-2016</p>
+
+			<p>Font used: <a href="https://fonts.google.com/specimen/Roboto" target="_blank">Google Roboto and Google Material Icons</a></p>
+		</div>
+	</footer>
+	<script>
+		$(document).ready(function() {
+  
+  $(window).scroll(function () {
+      console.log($(window).scrollTop())
+    if ($(window).scrollTop() > 280) {
+      $('#nav_bar').addClass('navbar-fixed');
+    }
+    if ($(window).scrollTop() < 281) {
+      $('#nav_bar').removeClass('navbar-fixed');
+    }
+  });
+});
+	function MyFunction() {
+	   var x = document.getElementById("myTopnav");
+	   if (x.className === "topnav") {
+	       x.className += " responsive";
+	   } else {
+	       x.className = "topnav";
+	   }
+	}
+	</script>
+</body>
+</html>
